@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6{
   color: white;
 }
 .logo img{
-  box-shadow:  0 0 10px black;
+  box-shadow:  0 0 1px black;
   position: absolute;
   top: 0;
   left: 0;
@@ -210,9 +210,11 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
   padding: 15px;
   font-size: 15px;
-  border-bottom: 1px solid white !important;
+  border-bottom: 1px solid #3a3a3a !important;
+  transition: .3s;
 }
 .peta_menu li:hover a{
+  color: var(--Orange);
   border-bottom: 1px solid var(--Orange) !important;
 }
 .menu li:hover .peta_menu{
@@ -623,6 +625,7 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 10px 0 5px;
   width: 30px;
   height: 30px;
+  padding: 5px;
 }
 .icon_1 span{
   font-size: 40px;
@@ -656,7 +659,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .gap{
   position: relative;
-  border: 1px solid gray; 
+  border: 1px solid rgb(212, 208, 208); 
   overflow: hidden;
 }
 .liaer{
@@ -704,9 +707,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .text_2{
   padding: 15px 20px;
-  border-left:1px solid gray;
-  border-right:1px solid gray;
-  border-bottom:1px solid gray;
+  border-left:1px solid rgb(212, 208, 208);
+  border-right:1px solid rgb(212, 208, 208);
+  border-bottom:1px solid rgb(212, 208, 208);
 
 }
 .text_2 h4{
@@ -953,7 +956,7 @@ small::before{
   line-height: 40px;
   text-align: center;
   width: 40px;
-  margin-left: 10px;
+  margin-right: 10px;
   transition: .5s;
 }
 .footer_icon a:hover{
@@ -1095,7 +1098,7 @@ small::before{
           servicesdeteils css      
 =================================================================================================================================*/
 .logo1 img {
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 1px black;
   position: absolute;
   top: 0;
   left: 0;

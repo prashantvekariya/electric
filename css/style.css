@@ -113,14 +113,12 @@ h1,h2,h3,h4,h5,h6{
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.118)
 }
 
-.sticky .logo{
+.sticky .logo,.sticky .logo1{
   display: none;
 }
 .sticky .header1{
   justify-content: start !important;
 }
-
-
 
 .header_color{
   background-color: var(--Orange);
